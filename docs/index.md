@@ -1,4 +1,4 @@
-![](../images/ProfileShot2.png)
+![](images/ProfileShot2.png)
 
 Hello, I am Aishwarya Kaura
 
