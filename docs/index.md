@@ -1,9 +1,30 @@
-![](images/ProfileShot2.png)
+---
+hide:
+  - navigation
+  - toc
+---
 
-Hello, I am Aishwarya Kaura
+<div class="landing">
 
-A creative practitioner crafting experiential spaces in an ephemeral realm - where scale and softness converge, evocative structures and illuminating textures blend, redefining the aura! 
-My work traverses luxury, fashion, and culture guided by material sensitivity and passion for exploring sustainable futures in immersive, sensorial scenography. 
+# AISHWARYA KAURA
+### Designer | Researcher | MDEF 2025
 
+<img src="images/profile_shot_2.png" alt="Profile" class="profile-img">
 
+Welcome to my digital portfolio — a space to document my journey through the  
+**Master in Design for Emergent Futures (MDEF)** at  
+[**Fab Lab Barcelona**](https://fablabbcn.org) and the [**IAAC**](https://iaac.net/).
 
+---
+
+### My Work
+[View My Projects →](project/project.md)
+
+---
+
+### Connect
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)  
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+</div>
