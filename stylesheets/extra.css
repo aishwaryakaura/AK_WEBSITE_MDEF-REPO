@@ -1,42 +1,41 @@
-:root>* {
-
-    --md-footer-bg-color: white;
-    --md-footer-fg-color: rgb(32, 32, 32);
-    --md-footer-bg-color--dark: white;
-    --md-footer-fg-color--lighter:  rgb(32, 32, 32);
-    --md-footer-fg-color--light:  rgb(32, 32, 32);
-    --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
-    --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: rgb(12, 240, 190);
-
+/* Make landing page fullscreen and centered */
+.landing-fullscreen {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  min-height: 100vh !important;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
 }
 
-
-.hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .hide-scroll-bar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .md-typeset .md-button--primary {
-    border-width: 1px;
-    border-color: rgb(219, 219, 219);
-    border-radius: 4px;
-  }
-
-.cardContent {
-  padding: 16px;
-  font-size: 16px;
-  color: rgb(32, 32, 32);
+.landing-fullscreen h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
 }
 
-.md-typeset h2 {
-    font-weight: 500;
+.landing-fullscreen h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
-.mdc-typography--body2 {
-    font-weight: 300;
-    font-size: 14px;
+.profile-img {
+  border-radius: 50%;
+  width: 220px;
+  margin: 20px 0;
+  display: block;
 }
+
+.landing-fullscreen a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing-fullscreen a:hover {
+  text-decoration: underline;
+}
+
