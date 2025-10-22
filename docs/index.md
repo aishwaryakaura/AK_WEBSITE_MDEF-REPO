@@ -1,33 +1,22 @@
-<html>
----
-hide:
-  - navigation
-  - toc
----
-
 <div class="landing-fullscreen">
-
-# AISHWARYA KAURA
-### Designer | Researcher | MDEF 2025
-
-<img src="images/Profile Shot 2.png" alt="Profile" class="profile-img">
-
-Welcome to my digital portfolio — a space to document my journey through the  
-**Master in Design for Emergent Futures (MDEF)** at  
-[**Fab Lab Barcelona**](https://fablabbcn.org) and the [**IAAC**](https://iaac.net/).
-
----
-
-### My Work
-[View My Projects →](project/project.md)
-
----
-
-### Connect
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)  
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-
+  <img src="images/Profile Shot 2.png" alt="Profile" class="profile-img">
+  <h1>Aishwarya Kaura</h1>
+  <h3>Designer | Researcher | MDEF 2025</h3>
+  <p><a href="project/project.md">View Projects →</a></p>
 </div>
 
-</html>
+<style>
+.landing-fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align: center;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+</style>
