@@ -1,41 +1,55 @@
-/* Make landing page fullscreen and centered */
-.landing-fullscreen {
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  min-height: 100vh !important;
-  padding: 2rem;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.landing-fullscreen h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
+h2, p {
+  margin: 10px;
 }
 
-.landing-fullscreen h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-.profile-img {
-  border-radius: 50%;
-  width: 220px;
-  margin: 20px 0;
+ul li {
+  float: right;
+}
+
+ul li a {
   display: block;
-}
-
-.landing-fullscreen a {
-  color: #fff;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.landing-fullscreen a:hover {
-  text-decoration: underline;
+ul li a:hover {
+  background-color: #111111;
 }
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<h2>Horizontal Navbar Using Float</h2>
+
+<p>Some text on the website.</p>
+
+</body>
+</html>
+
+
 
