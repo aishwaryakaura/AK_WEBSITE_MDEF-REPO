@@ -4,12 +4,12 @@ hide:
   - toc
 ---
 
-<div class="landing">
+<div class="landing-fullscreen">
 
 # AISHWARYA KAURA
 ### Designer | Researcher | MDEF 2025
 
-<img src="images/profile_shot_2.png" alt="Profile" class="profile-img">
+<img src="images/Profile Shot 2.png" alt="Profile" class="profile-img">
 
 Welcome to my digital portfolio — a space to document my journey through the  
 **Master in Design for Emergent Futures (MDEF)** at  
@@ -28,3 +28,4 @@ Welcome to my digital portfolio — a space to document my journey through the
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 </div>
+
