@@ -1,3 +1,4 @@
+<html>
 ---
 hide:
   - navigation
@@ -29,3 +30,4 @@ Welcome to my digital portfolio — a space to document my journey through the
 
 </div>
 
+</html>
