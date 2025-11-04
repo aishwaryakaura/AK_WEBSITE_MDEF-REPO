@@ -11,14 +11,15 @@ copyright: © 2025 Aishwarya Kaura
 # --------------------------
 # NAVIGATION
 # --------------------------
+# Homepage as a markdown page with anchors for scrolling
 nav:
-  - Home: index.md
+  - Home: home.md
   - About Me: about/me.md
   - Projects: project/project.md
   - Reflections:
       - Term 1:
           - Bootcamp: term1/01-Bootcamp.md
-          - Atlas of Weak Signals: term1/02-Atlas of Weak Signals.md
+          - Atlas of Weak Signals: term1/02-Atlas_of_Weak_Signals.md
       - Term 2:
           - Digi: term2/digi.md
           - Studio: term2/studio.md
@@ -29,9 +30,9 @@ nav:
 # --------------------------
 theme:
   name: material
-  custom_dir: docs/overrides  # enables your custom home.html
-  logo: images/profile_shot_2.png
-  favicon: images/profile_shot_2.png
+  custom_dir: docs/overrides      # Your custom home.html or template overrides
+  logo: images/ProfileShot2.png
+  favicon: images/favicon.svg
   palette:
     primary: white
     accent: teal
@@ -39,8 +40,9 @@ theme:
     text: "Poppins"
     code: "Cutive Mono"
   features:
-    - navigation.tabs
-    - navigation.top
+    - navigation.tabs           # Top tabs for child pages
+    - navigation.top            # Sticky top navigation
+    - navigation.sections       # Expand/collapse nested nav items
     - content.code.copy
     - header.autohide
 
@@ -63,6 +65,8 @@ plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
+  - minify:
+      minify_html: true
 
 # --------------------------
 # MARKDOWN ENHANCEMENTS
@@ -84,9 +88,15 @@ markdown_extensions:
       permalink: true
 
 # --------------------------
-# CUSTOM STYLES
+# CUSTOM STYLES AND JS
 # --------------------------
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css       # Sticky sidebar, section spacing, fonts
+extra_javascript:
+  - javascripts/scrollspy.js    # Optional JS to highlight active section
 
-
+# --------------------------
+# OPTIONAL SETTINGS
+# --------------------------
+# Use 'strict: true' to catch broken links during build
+strict: true
