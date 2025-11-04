@@ -11,26 +11,21 @@ copyright: © 2025 Aishwarya Kaura
 # --------------------------
 # NAVIGATION
 # --------------------------
-# Homepage as a markdown page with anchors for scrolling
+# No need to add Home: index.md since we use custom home.html
 nav:
-  - Home: home.md
   - About Me: about/me.md
   - Projects: project/project.md
   - Reflections:
       - Term 1:
           - Bootcamp: term1/01-Bootcamp.md
-          - Atlas of Weak Signals: term1/02-Atlas_of_Weak_Signals.md
-      - Term 2:
-          - Digi: term2/digi.md
-          - Studio: term2/studio.md
-  - Contact: contact.md
+          - Atlas of Weak Signals: term1/02-Atlas of Weak Signals.md
 
 # --------------------------
 # THEME CONFIGURATION
 # --------------------------
 theme:
   name: material
-  custom_dir: docs/overrides      # Your custom home.html or template overrides
+  custom_dir: docs/overrides
   logo: images/ProfileShot2.png
   favicon: images/favicon.svg
   palette:
@@ -40,9 +35,8 @@ theme:
     text: "Poppins"
     code: "Cutive Mono"
   features:
-    - navigation.tabs           # Top tabs for child pages
-    - navigation.top            # Sticky top navigation
-    - navigation.sections       # Expand/collapse nested nav items
+    - navigation.tabs
+    - navigation.top
     - content.code.copy
     - header.autohide
 
@@ -63,10 +57,7 @@ extra:
 # --------------------------
 plugins:
   - search
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-  - minify:
-      minify_html: true
+  # Removed git-revision-date-localized to avoid errors
 
 # --------------------------
 # MARKDOWN ENHANCEMENTS
@@ -88,15 +79,7 @@ markdown_extensions:
       permalink: true
 
 # --------------------------
-# CUSTOM STYLES AND JS
+# CUSTOM STYLES
 # --------------------------
 extra_css:
-  - stylesheets/extra.css       # Sticky sidebar, section spacing, fonts
-extra_javascript:
-  - javascripts/scrollspy.js    # Optional JS to highlight active section
-
-# --------------------------
-# OPTIONAL SETTINGS
-# --------------------------
-# Use 'strict: true' to catch broken links during build
-strict: true
+  - stylesheets/extra.css
