@@ -6,7 +6,7 @@ site_description: Designer • Creator • Explorer
 site_author: Aishwarya Kaura
 site_url: https://aishwaryakaura.github.io/AK_WEBSITE_MDEF-REPO/
 repo_url: https://github.com/aishwaryakaura/AK_WEBSITE_MDEF-REPO
-copyright: "© 2025 Aishwarya Kaura"
+copyright: © 2025 Aishwarya Kaura
 
 # --------------------------
 # NAVIGATION
@@ -29,22 +29,20 @@ nav:
 # --------------------------
 theme:
   name: material
+  custom_dir: docs/overrides  # enables your custom home.html
   logo: images/profile_shot_2.png
   favicon: images/profile_shot_2.png
   palette:
-    primary: teal
-    accent: cyan
+    primary: white
+    accent: teal
   font:
     text: "Poppins"
     code: "Cutive Mono"
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.expand
-    - navigation.tracking
     - content.code.copy
     - header.autohide
-    - content.action.edit
 
 # --------------------------
 # EXTRA CONTENT
@@ -52,9 +50,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/YOURUSERNAME
+      link: https://instagram.com/aishwaryakaura
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/YOURUSERNAME/
+      link: https://www.linkedin.com/in/aishwaryakaura/
     - icon: fontawesome/brands/github
       link: https://github.com/aishwaryakaura
 
