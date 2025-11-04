@@ -1,22 +1,11 @@
-<div class="landing-fullscreen">
-  <img src="images/Profile Shot 2.png" alt="Profile" class="profile-img">
-  <h1>Aishwarya Kaura</h1>
-  <h3>Designer | Researcher | MDEF 2025</h3>
-  <p><a href="project/project.md">View Projects →</a></p>
-</div>
+# Welcome to My Design Portfolio
 
-<style>
-.landing-fullscreen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
-  text-align: center;
-}
-.profile-img {
-  width: 150px;
-  border-radius: 50%;
-  margin-bottom: 1em;
-}
-</style>
+<div align="center">
+
+### Hi, I’m **Aishwarya Kaura**  
+Designer • Creator • Explorer
+
+[About Me](about.md){ .md-button .md-button--primary }
+[View Projects](projects.md){ .md-button }
+
+</div>

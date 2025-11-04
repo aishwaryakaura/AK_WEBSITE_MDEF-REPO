@@ -1,69 +1,36 @@
-# --------------------------
-# SITE SETTINGS
-# --------------------------
 site_name: Aishwarya Kaura
 site_description: Designer • Creator • Explorer
-site_author: Aishwarya Kaura
 site_url: https://aishwaryakaura.github.io/AK_WEBSITE_MDEF-REPO/
 repo_url: https://github.com/aishwaryakaura/AK_WEBSITE_MDEF-REPO
-copyright: © 2025 Aishwarya Kaura
 
-# --------------------------
-# NAVIGATION
-# --------------------------
 nav:
   - Home: index.md
-  - About Me: about/me.md
-  - Projects: project/project.md
-  - Reflections:
-      - Term 1:
-          - Bootcamp: term1/01-Bootcamp.md
-          - Atlas of Weak Signals: term1/02-Atlas of Weak Signals.md
-      - Term 2:
-          - Digi: term2/digi.md
-          - Studio: term2/studio.md
+  - About: about.md
+  - Projects: projects.md
   - Contact: contact.md
 
-# --------------------------
-# THEME CONFIGURATION
-# --------------------------
 theme:
   name: material
-  logo: images/profile_shot_2.png
-  favicon: images/profile_shot_2.png
+  logo: images/favicon.svg
+  favicon: images/favicon.svg
   palette:
     primary: teal
     accent: cyan
   font:
-    text: "Poppins"
-    code: "Cutive Mono"
+    text: Poppins
+    code: Cutive Mono
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.expand
-    - content.code.copy
     - header.autohide
-    - navigation.tracking
-    - content.action.edit
 
-# --------------------------
-# EXTRA CONTENT
-# --------------------------
-extra:
-  social:
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/YOURUSERNAME
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/YOURUSERNAME/
-    - icon: fontawesome/brands/github
-      link: https://github.com/aishwaryakaura
-
-# --------------------------
-# PLUGINS
-# --------------------------
 plugins:
   - search
-  - git-revision-date-localized:
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehil
       fallback_to_build_date: true
 
 # --------------------------
